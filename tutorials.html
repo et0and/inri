@@ -1,32 +1,135 @@
-<!doctype html>
-<html dir="ltr" lang="en-us">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tutorials - Tom</title>
-    <link rel="stylesheet" href="/01-005.css">
-  </head>
-  <body>
-    <main>
-     <ul>
-      <li><span><a href="/phones">Phones ⟶</span></li>
-      <li><span><a href="/computers">Computers  ⟶</span></li>
-      <li><span><a href="/travel">Travel ⟶</span></li>
-      <li><span><a href="/food">Food ⟶</span></li>
-      <li><span><a href="/software">Software ⟶</span></li>
-      <li><span>6</span></li>
-      <li><span>7</span></li>
-      <li><span>8</span></li>
-      <li><span>9</span></li>
-      <li><span>10</span></li>
-      <li><span>11</span></li>
-      <li><span>12</span></li>
-      <li><span>13</span></li>
-      <li><span>14</span></li>
-      <li><span>15</span></li>
-      <li><span>16</span></li>
-    </ul>
-    </main>
+    <meta charset="utf-8">
+    <style>
+body {
+  margin: 40px;
+  font: 80% Arial, Helvetica, sans-serif;
 
-  </body>
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:  repeat(6, 150px);
+  grid-template-rows: repeat( 4, 150px);
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  border: 1px solid #444;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.a {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  justify-self: stretch;
+}
+
+.b {
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+  justify-self: end;
+}
+
+.c {
+  grid-column: 1 / 3;
+  grid-row: 3 /  6;
+  justify-self: start;
+}
+
+.d {
+  grid-column: 3 / 5;
+  grid-row: 3 / 6;
+  justify-self: center;
+}
+
+.e {
+  grid-column: 5 / 7;
+  grid-row: 1 / 6;
+  align-self: stretch;
+}
+
+
+
+
+
+   </style>
+</head>
+
+ <body>
+
+<div class="wrapper">
+  <div class="box a">
+    <p>Technology. </p>
+    <p>
+      <a href="https://listed.standardnotes.org/@thac408/4933/brief-notes-on-opsec-re-phones">How to secure your iPhone, a step by step list ⟶</a>
+    </p>
+
+    <p>
+  <a href="https://listed.standardnotes.org/@thac408/4934/quick-101-to-browsing-the-internet-safely">Quick 101 to browsing the Internet safely ⟶</a>
+</p>
+
+<p>
+  <a href="/">Recommended software list for your desktop and phone ⟶</a>
+</p>
+
+<p>
+  <a href="https://listed.standardnotes.org/@thac408/4953/if-you-build-it-they-might-come-using-google-docs-as-a-static-site-cms">Using Google Docs as a CMS for your static site ⟶</a>
+</p>
+
+<p>
+  <a href="/">Master 1Password, the most awesome password manager! ⟶</a>
+</p>
+
+<p>
+  <a href="/">Email that doesn't suck - using FastMail and PGP ⟶</a>
+</p>
+
+<p>
+  <a href="">Piss-easy encryption - how to use Keybase, Mailvelope and Enigmail ⟶</a>
+</p>
+
+<p>
+  <a href="">The best notetaking app in the world! - how to use Standard Notes ⟶</a>
+</p>
+
+  <p>
+  <a href="">A simple guide to buying secondhand computers ⟶</a>
+</p>
+
+<p>
+  <a href="">The world is your e-oyster! - a guide to creating and deploying websites with GitHub and Netlify ⟶</a>
+</p>
+
+<p>
+  <a href="">Which one is right for me? The top text editors compared ⟶</a>
+</p>
+  </div>
+  <div class="box b">
+    <p>Food.</p>
+    <p>
+      <a href="/">Shinto cooking - beautiful, simple food ⟶</a>
+    </p>
+  </div>
+  <div class="box c">
+    <p>Auto.</p>
+    <code>justify-self: start</code>
+
+  </div>
+  <div class="box d">
+    <p>This is box D.</p>
+    <code>justify-self: center</code>
+  </div>
+  <div class="box e">
+    <p>Each of the boxes on the left has a grid area of 3 columns and 3 rows (we're counting the gutter col/row). So each covers the same size area as box A.</p>
+    <p>The justify-self property is used to justify the content inside the grid-area.</p>
+  </div>
+</div>
+</body>
 </html>
