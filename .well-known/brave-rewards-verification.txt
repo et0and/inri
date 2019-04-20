@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: tom.org.nz
+Token: cb08965b2b98c86dac5fd62c72f9963afccd59ed7c295f8ad1cbd5fa058a2f63 
