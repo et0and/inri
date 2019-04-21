@@ -46,7 +46,7 @@ h1 {
 }
 
 .group a {
-  color: blue;
+  color: white;
 }
 
 a.button {
@@ -58,7 +58,7 @@ a.button {
 }
 
 a.button:visited {
-  color: purple;
+  color: white;
   border-color: purple;
 }
 
