@@ -2,7 +2,7 @@ body {
   font-size: 1.3em;
   font-family: "Source Sans Pro", monospace;
   margin: 0;
-  color: #fff;
+  color: #000;
   overflow-x: hidden;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 .group {
-  background: black;
+  background: white;
   font-family: monospace;
   max-width: 47em;
   padding: 1em;
