@@ -2,9 +2,9 @@ body {
   font-size: 1.5em;
   font-family: "Source Sans Pro", monospace;
   margin: 0;
-  color: #000;
+  color: #fff;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #000;
 }
 
 li {
@@ -70,7 +70,6 @@ a.home {
   text-decoration: none;
   color: white;
 }
-}
 a {
   color: #fff;
   text-decoration: none;
@@ -83,10 +82,12 @@ ul, li {
   margin-left: 0;
   padding-left: 0;
   list-style-type: none;
+  color: white;
 }
 
 ul {
   margin: 0;
+  color: white;
 }
 
 ol li {
